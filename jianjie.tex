@@ -1,0 +1,196 @@
+%! TEX root = ./axions.tex
+\section{简介}
+首先，什么是轴子？
+\begin{enumerate}
+   \item 轴子场是周期性场，即$a(x)=a(x)+2\pi f_a$，其中$f_a$是轴子的衰变常数。
+   \item 轴子场和pseudo shift-symmetry相关联。
+   \item 轴子场是$U(1)_{PQ}$对称性自发破缺产生的pseudo Goldstone Boson。
+   \item 轴子场是用来解决强CP问题(强相互作用中CP不破坏)而被提出。
+\end{enumerate}
+\subsection{EFT以及QCD反常}
+考虑一个复场$\phi$，具有$U(1)$对称性$\phi:\stackrel{U(1)}{\longmapsto} e^{i\alpha}\phi$，假设$Q=1$。则拉氏量的写法为
+\begin{equation}
+   \mL = \partial_{\mu} \phi^{*} \partial^{\mu} \phi-V(\phi^*\phi),\ V=\lambda(\phi^*\phi-\frac{f^2}{2})^2.
+\end{equation}
+令$x=\phi^*\phi$，则
+\begin{equation*}
+   0=\frac{\partial V}{\partial x}=2\lambda(x-\frac{f^2}{2})\Rightarrow \langle \phi^*\phi\rangle = \frac{f^2}{2}.
+\end{equation*}
+\input{jpg/caomao.tex}
+
+重新参数化$\phi$为$\phi=\frac{f+\rho}{\sqrt{2}}e^{ia/f}$。此时$U(1)$变换为
+\begin{align}
+   \begin{aligned}
+      \phi = \frac{f+\rho}{\sqrt{2}}e^{ia/f}&\rightarrow e^{i\alpha}\phi\\
+      a &\rightarrow a + \alpha f.
+   \end{aligned}
+\end{align}
+场$a$的对称性变为shift-symmetry。
+
+将拉氏量用新的参数描述
+\begin{equation}
+   \mL = \frac{1}{2}\partial_{\mu}\rho \partial^{\mu}\rho + \frac{1}{2}(1+\frac{\rho}{f})^2\partial_{\mu}a\partial^{\mu}a-\frac{1}{2}m_{\rho}^2\rho^2-\frac{m_{\rho}^2}{2f}\rho^3-\frac{m_{\rho}^2}{8f^2}\rho^4,
+\end{equation}
+其中$m_{\rho}^2=2\lambda f^2$。
+\textcolor{blue}{$E<<f,f\ge 10^3GeV$}。
+
+
+\textbf{ChPT简介}
+
+手征微扰场论是QCD的低能有效理论。考虑QCD的拉氏量
+\begin{equation}
+   \mL_{QCD} = \sum_{i=1}^{3} (\bar{q}_L i \sD q_L + \bar{q}_R i \sD q_R  )-(m_{ij} \bar{q}_{Ri}q_{Lj}+{\rm h.c.})-\frac{1}{4}GG+\theta \frac{g_s^2}{32\pi^2}G\tilde{G},
+\end{equation}
+其中$G,\tilde{G}$省略了指标。
+
+在$m_{q_i}\to 0$的极限下，系统具有$U(3)_L\times U(3)_R$的整体对称性，向下分解为$SU(3)_L\times SU(3)_R\times U(1)_L\times U(1)_R)$。其中与$SU(3)_L\times SU(3)_R$关联的诺特流为
+\begin{equation*}
+   j_{L,R}^{\mu,a}=\bar{q}_{L,R}\gamma^{\mu}T^a q_{L,R},\ T^a=\frac{\lambda_a}{2},
+\end{equation*}
+与$U(1)_L\times U(1)_R$关联的诺特流为
+\begin{equation*}
+   j_{L,R}^{\mu}=\bar{q}_{L,R}\gamma^{\mu}q_{L,R}.
+\end{equation*}
+
+采用另一组基$V=L+R,A=R-L$，我们可以重新将对称性改写为$SU(3)_V\times SU(3)_A\times U(1)_V\times U(1)_A$，诺特流改写为
+\begin{align}
+   \begin{aligned}
+      j^{\mu,a}=\bar{q}\gamma^{\mu}T^aq,&\ j_5^{\mu,a}=\bar{q}\gamma^{\mu}\gamma_5 T^a q\\
+      j^{\mu}=\bar{q}\gamma^{\mu}q,& \ j_5^{\mu}=\bar{q}\gamma^{\mu}\gamma_5 q.
+   \end{aligned}
+\end{align}
+然而质量项在$SU(3)_L\times SU(3)_R$下不是不变的。为此我们将质量项提升为场，并令其在$SU(3)_L\times SU(3)_R$下按照如下方式变换
+\begin{equation*}
+   M_q \to LM_qR^{\dagger}.
+\end{equation*}
+在最后的时候，我们再令
+\begin{equation*}
+   M_q \to \begin{pmatrix}
+      m_u&&\\
+      &m_d&\\
+      &&m_s.
+   \end{pmatrix}
+\end{equation*}
+
+除此显式破缺之外，QCD的真空在$SU(3)_L\times SU(3)_R$下也是自发破缺的。
+\begin{equation*}
+   \langle 0 |\bar{q}_{R,j}q_{L,i}|0\rangle=\hat{\Lambda}^3\delta_{ij}, 
+\end{equation*}
+其中$[\Lambda]$带有质量量纲。上式在$SU(3)_L\times SU(3)_R$变换下
+\begin{equation*}
+   \to \langle 0 |\bar{q}_{R,l}q_{L,k}|0\rangle R^{\dagger}_{lj} L_{ik}=\hat{\Lambda}^3 (LR^{\dagger})_{ij}=\hat{\Lambda}^3\Sigma_{ij}.
+\end{equation*}
+$\Sigma_{ij}$代表了不同于$\delta_{ij}$的真空。如果$L=R$，那么真空是不变的，对应$SU(3)_V$对称性。因此我们有$SU(3)_L\times SU(3)_R\to SU(3)_V$，破缺的部分生成了8个Goldstone Bosons。
+
+分析$U(1)$对称性的破缺，我们可以发现，参数化后的场$a$（即Goldstone Boson）连接了不同的真空。因此对于$SU(3)$，我们同样可以将8个Goldstone Bosons参数化为连接不同真空的变换，即将$\Sigma_{ij}$提升为Goldstone Boson场。
+\begin{equation*}
+   \begin{aligned}
+   &\Sigma = e^{i\frac{2\pi^a T^a}{f_{\pi}}}, T^a=\frac{\lambda_a}{2}\\
+   &\Sigma\stackrel{SU(3)_L\times SU(3)_R}{\longrightarrow}L\Sigma R^{\dagger}\\
+   &\pi^a T^a = \begin{pmatrix}
+      \pi^0+\frac{\eta}{3} & \sqrt{2}\pi^+ & \sqrt{2}K^+ \\
+      \sqrt{2}\pi^- & -\pi^0+\frac{\eta}{3} &\sqrt{2}K^0 \\
+      \sqrt{2}K^- & \sqrt{2}\bar{K}^0 & -\frac{2\eta}{3}
+   \end{pmatrix}.
+   \end{aligned}
+\end{equation*}
+忽略重的粒子态（如$\rho,\eta$），我们可以将EFT按照$\frac{m_q}{\Lambda}$的幂级数进行展开，其中$\Lambda\sim 1GeV$。
+
+写下$\mO(p^2)$阶的拉氏量
+\begin{equation}
+   \mL_2 = \frac{f_{\pi}^2}{4}{\rm Tr}[\partial_{\mu}\Sigma^{\dagger}\partial^{\mu}\Sigma]+\frac{B_0 f_{\pi}^2}{2}{\rm Tr}[\Sigma M_q^[\dagger]+M_q\Sigma^{\dagger}].
+\end{equation}
+通过将上式展开，我们可以得到
+\begin{align}
+   \begin{aligned}
+      m_{\pi^{\pm}}^2 = B_0(m_u+m_d)\\
+      m_{K^{\pm}}^2 = B_0(m_u+m_s)\\
+      m_{\bar{K}^0}^2 = B_0(m_d+m_s)
+   \end{aligned}
+\end{align}
+
+\textbf{低能QCD中的反常}
+
+考虑无质量的QED项
+\begin{align}
+   \mL = i\bar{\Psi}(\spa-ie\sA)\Psi - \frac{1}{4}F_{\mu\nu}F^{\mu\nu}.
+\end{align}
+相应的整体对称性以及Noether流有
+\begin{align}
+   \begin{cases}
+      \Psi \to e^{i\alpha}\Psi\\
+      \Psi \to e^{i\gamma_5\alpha}\Psi
+   \end{cases},
+   \begin{cases}
+      j^{\mu}_V=\bar{\Psi}\gamma^{\mu}\Psi\\
+      j^{\mu}_A=\bar{\Psi}\gamma^{\mu}\gamma_5\Psi.
+   \end{cases}
+\end{align}
+在经典情况下，两个流都是守恒的。然而在量子水平上，无法保证两个流同时守恒。如果我们选择$\partial_{\mu}j^{\mu}_V=0$，那么就有
+\begin{align}
+   \partial_{\mu}j^{\mu}_A = \frac{e^2}{32\pi^2}\varepsilon^{\mu\nu\rho\sigma}F_{\mu\nu}F_{\rho\sigma}=\frac{e^2}{16\pi^2}F\tilde{F}.
+\end{align}
+可以通过下面的费曼图计算得到
+
+\input{jpg/fanchang.tex}
+
+整体流和局部流的反常：
+
+整体：会导致重要的物理后果，\textcolor{blue}{如，QCD中的$U(1)_A$反常能够推出$m_q\sim 1GeV$；$\pi^0\to\gamma\gamma$现象，QCD中的$U(1)_{PQ}$反常能够推出轴子的质量。}
+
+局部：\textcolor{blue}{会破坏理论的可重整性。}
+
+反常来自于路径积分中测度的变换：
+\begin{align}
+   \mD q \mD \bar{q} \stackrel{q\to e^{i\alpha \gamma_5 q}}{\longrightarrow} \mD q\mD \bar{q} e^{-i\int \md^4x[\frac{e^2}{16\pi^2F\tilde{F}}]}.
+\end{align}
+一个整体流反常有如下公式：
+\begin{align}
+   \partial_{\mu}j^{\mu,a}=\frac{g^2}{32\pi^2}{\rm Tr}[T^a\{t^b,t^c\}]\varepsilon^{\mu\nu\rho\sigma}F^b_{\mu\nu}F^c_{\rho\sigma}.
+\end{align}
+
+考虑$SU(3)$群，我们有轴矢流$j^{\mu}_5=\bar{q}\gamma^{\mu}\gamma_5 \mathbb{I} q$，其中$q^T=(u,d,s)$，因此
+\begin{align}
+   \begin{aligned}
+      \partial_{\mu}j^{\mu}_5 =&\frac{g_s^2}{32\pi^2}{\rm Tr}[{\mathbb{I}}\{t^b,t^c\}]\varepsilon G^bG^c\\
+      =&\frac{g_s^2}{32\pi^2}{\rm Tr}[{\mathbb{I}}]\cdot2{\rm Tr}[t^bt^c]\varepsilon G^bG^c\\
+      =&\frac{g_s^2N_f}{32\pi^2}\varepsilon G^bG^b \to \textcolor{blue}{m_{\eta^{\prime}}\sim 1GeV.}
+   \end{aligned}
+\end{align}
+其中的${\mathbb{I}}$是因为该诺特流与味空间无关。在最后一步，我们用了${\rm Tr}{\mathbb{I}}=N_f$，以及${\rm Tr}[t^bt^c]=\frac{1}{2}\delta^{bc}$。
+
+考虑$U(1)_{EM}$群，我们有轴矢流$j_5^{\gamma,a}=\bar{q}\gamma^{\mu}\gamma_5T^aq$，以$a=3$为例，其中$Q={\rm diag}\{2/3,-1/3,-1/3\}$，
+\begin{align}
+   \begin{aligned}
+      \partial_{\mu}j^{\mu,3}_5=&\frac{e^2}{32\pi^2}{\rm Tr}[T^3\{Q,Q\}]\varepsilon FF\\
+      =&\frac{e^2}{32\pi^2}(\frac{N_C}{3})\varepsilon FF.
+   \end{aligned}
+\end{align}
+\textcolor{blue}{在最后一步，我们用了$2{\rm Tr}[T^3 Q^2]=(\frac{N_C}{3})$}。
+因此，积分测度变为
+\begin{align}
+   \mD q\mD\bar{q}\stackrel{q\to e^{i\alpha T^3\gamma_5}q}{\longrightarrow} \mD q\mD\bar{q}e^{-i\int \md^4x\alpha \frac{e^2}{32\pi^2}(\frac{N_C}{3})\varepsilon FF} ,
+\end{align}
+拉氏量变为
+\begin{align}
+   \mL \to \mL -\alpha \frac{e^2}{32\pi^2}(\frac{N_C}{3})\varepsilon FF.
+\end{align}
+
+考虑带有$\pi$介子的理论，假设系统沿着$T^3$方向进行$SU(3)_A$变换，可以证明$\pi^0\to\pi^0-\alpha f_{\pi}$。因此，为了保证$\mL_{\pi}$和$\mL_{QCD}$的变换方式一样，我们需要添加一项
+\begin{align}
+   \delta \mL_{\pi^0}=\frac{\pi^0}{f_{\pi}}\frac{e^2}{32\pi^2}\frac{N_C}{3}\varepsilon FF,
+\end{align}
+该项通常称为反常匹配，该项在$SU(3)_A$变化下为
+\begin{align}
+   \delta mL_{\pi^0}\to\delta mL_{\pi^0}\-\frac{\alpha f_{\pi}}{f_{\pi}}\frac{e^2}{32\pi^2}\frac{N_C}{3}\varepsilon FF,
+\end{align}
+刚好抵消了拉氏量的变化。而额外引入的$\delta\mL_{\pi^0}$项则会产生如下顶点：
+
+\input{jpg/pi0fanchang.tex}
+
+由此，我们可以给出
+\begin{align}
+   \Gamma(\pi^0\to \gamma\gamma)=\frac{m_{\pi}^3\alpha^3}{64\pi^3f_{\pi}^2}(\frac{N_C}{3})\simeq 7.6eV (\frac{N_C}{3}),
+\end{align}
+而$\Gamma(\pi^0\to \gamma\gamma)_{\rm exp}\simeq 7.7eV$。
+

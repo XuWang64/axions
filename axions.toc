@@ -1,0 +1,5 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}简介}{2}{section.1}%
+\contentsline {subsection}{\numberline {1}EFT以及QCD反常}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {2}强CP问题}{7}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {2.1}$U(1)_A$介子丢失问题}{9}{subsubsection.1.2.1}%

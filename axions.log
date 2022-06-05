@@ -1,0 +1,1801 @@
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.6.5)  5 JUN 2022 19:46
+ system commands enabled.
+ file:line:error style messages enabled.
+**c:/Users/xuu/Desktop/Xuu/axions/axions_memo/axions
+(c:/Users/xuu/Desktop/Xuu/axions/axions_memo/axions.tex
+LaTeX2e <2021-11-15> patch level 1
+Lua module: luaotfload 2022-03-18 3.21 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/xuu/AppData/Local/MiKTeX/l
+uatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-02-24.lua" from kpse-res
+olved path "C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/fon
+tloader-2022-02-24.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.119
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/xuu/AppData/Local/MiKTeX/l
+uatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' at position 1 in `glyph_stream_provider'
+.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2022-05-04>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/ctex/ctexart.cls
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/ctex/config/ctexbackend.c
+fg
+File: ctexbackend.cfg 2021/12/12 v2.5.8 Backend configuration file (CTEX)
+) (C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-05-04 L3 programming layer (loader) 
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-luate
+x.def
+File: l3backend-luatex.def 2022-04-20 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count183
+\l__pdf_internal_box=\box50
+))
+Document Class: ctexart 2021/12/12 v2.5.8 Chinese adapter for class article (CT
+EX)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xparse.
+sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/l3keys2e/l3key
+s2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2021/12/12 v2.5.8 Document and package hooks (CTEX)
+\c__ctex_package_cctab=\catcodetable12
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2021/12/12 v2.5.8 Patching commands (CTEX)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\l__ctex_tmp_int=\count184
+\l__ctex_tmp_box=\box51
+\l__ctex_tmp_dim=\dimen137
+\g__ctex_section_depth_int=\count185
+\g__ctex_font_size_int=\count186
+\g__cctab_next_cctab=\catcodetable13
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/ctex/config/ctexopts.cfg
+File: ctexopts.cfg 2021/12/12 v2.5.8 Option configuration file (CTEX)
+) (C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/xuu/AppData/Local/MiK
+TeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/ctex/engine/ctex-engine-l
+uatex.def
+File: ctex-engine-luatex.def 2021/12/12 v2.5.8 LuaLaTeX adapter (CTEX)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/luatex/luatexja/luatexja.sty
+Package: luatexja 2022-04-11 Japanese Typesetting with Lua(La)TeX
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/luatex/luatexja/luatexja-core.s
+ty
+Package: luatexja-core 2022-01-12 Core of LuaTeX-ja
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/luatex/luatexbase/luatexbase.st
+y
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/luatex/ctablestack/ctablestack.
+sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count195
+)
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcmds.s
+ty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks16
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkeyval.tex
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count196
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count197
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/everyhook/everyhook.sty
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/svn-prov/svn-prov.sty
+Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
+)
+Package: everyhook 2014/11/26 v1.2 (SVN Rev: 12)\ Hooks for low level TeX every
+X primitives.
+\everypar=\toks19
+\frozen@everymath=\toks20
+\frozen@everydisplay=\toks21
+\everyhbox=\toks22
+\everyvbox=\toks23
+\everycr=\toks24
+)
+\ltjlineendcomment=\count198
+\ltj@dimen@zw=\dimen139
+\ltj@dimen@zh=\dimen140
+\ltj@dimen@jQ=\dimen141
+\ltj@icflag=\attribute4
+\ltj@curjfnt=\attribute5
+\ltj@curtfnt=\attribute6
+\ltj@charclass=\attribute7
+\ltj@charcode=\attribute8
+\ltj@autospc=\attribute9
+\ltj@autoxspc=\attribute10
+\ltj@yablshift=\attribute11
+\ltj@ykblshift=\attribute12
+\ltj@tablshift=\attribute13
+\ltj@tkblshift=\attribute14
+\jfam=\attribute15
+\ltj@vert@ori=\attribute16
+\ltj@dir=\attribute17
+\ltj@@japanese=\language2
+\ltj@tempcnta=\count199
+\ltj@kcat0=\attribute18
+\ltj@kcat1=\attribute19
+\ltj@kcat2=\attribute20
+\ltj@kcat3=\attribute21
+\ltj@kcat4=\attribute22
+\ltj@kcat5=\attribute23
+\ltj@kcat6=\attribute24
+Custom whatsit inhibitglue = 1
+Custom whatsit stack_marker = 2
+Custom whatsit begin_par = 3
+Custom whatsit direction = 4
+Custom whatsit box_boundary = 5
+Custom whatsit ja_al_boundary = 6(load cache: ltj-cid-auto-adobe-japan1.luc)
+Lua module: luatexja.charrange 2020-07-30 Handling the range of Japanese charact
+ers
+Lua module: luatexja.stack 2020-07-30 LuaTeX-ja stack system
+Inserting `ltj.create_dir_whatsit' at position 3 in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' at position 2 in `post_linebreak_filter'.
+Inserting `ltj.direction' at position 1 in `vpack_filter'.
+Inserting `ltj.direction' at position 1 in `pre_output_filter'.
+Inserting `ltj.lineskip' at position 3 in `post_linebreak_filter'.
+Inserting `ltj.lineskip' at position 1 in `append_to_vlist_filter'.
+Lua module: luatexja.jfont 2021-11-06 Loader for Japanese fonts
+Removing  `luaotfload.define_font' from `define_font'.
+Inserting `luatexja.font_callback' at position 1 in `define_font'.
+Removing  `luaotfload.aux.set_sscale_dimens' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_font_index' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.patch_cambria_domh' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_capheight' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_xheight' from `luaotfload.patch_font'.
+Removing  `luaotfload.rewrite_fontname' from `luaotfload.patch_font'.
+Inserting `ltj.prepare_extra_data' at position 1 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 2 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 3 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 4 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.set_capheight' at position 5 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 6 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 7 in `luaotfload.patch_font'
+.
+Inserting `ltj.prepare_extra_data' at position 1 in `luatexja.define_font'.(load
+ cache: extra_lmroman10-regular.luc)
+Inserting `ltj.get_vert_form' at position 1 in `luatexja.define_jfont'.
+Removing  `ltj.prepare_extra_data' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_sscale_dimens' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_font_index' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.patch_cambria_domh' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_capheight' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_xheight' from `luaotfload.patch_font'.
+Removing  `luaotfload.rewrite_fontname' from `luaotfload.patch_font'.
+Inserting `ltj.supply_tounicode' at position 1 in `luaotfload.patch_font'.
+Inserting `ltj.prepare_extra_data' at position 2 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 3 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 4 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 5 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.set_capheight' at position 6 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 7 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 8 in `luaotfload.patch_font'
+.
+Inserting `ltj.process_input_buffer' at position 1 in `process_input_buffer'.
+Inserting `ltj.hyphenate' at position 1 in `hyphenate'.
+Removing  `luaotfload.node_processor' from `hpack_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
+Removing  `ltj.create_dir_whatsit' from `hpack_filter'.
+Inserting `ltj.set_stack_level' at position 1 in `hpack_filter'.
+Inserting `luaotfload.node_processor' at position 2 in `hpack_filter'.
+Inserting `luaotfload.harf.finalize_hlist' at position 3 in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' at position 4 in `hpack_filter'.
+Removing  `luaotfload.node_processor' from `pre_linebreak_filter'.
+Inserting `ltj.set_stack_level' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 2 in `pre_linebreak_filter'.
+Lua module: luatexja.jfmglue 2022-02-09 Insertion process of JFM glues, [x]kanji
+skip and others
+Inserting `luatexja.beginpar.np_info' at position 1 in `luatexja.jfmglue.whatsit
+_getinfo'.
+Inserting `luatexja.beginpar.np_info_after' at position 1 in `luatexja.jfmglue.w
+hatsit_after'.
+Inserting `ltj.mlist_to_hlist_pre' at position 1 in `pre_mlist_to_hlist_filter'.
+Inserting `ltj.main' at position 3 in `pre_linebreak_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
+Removing  `ltj.create_dir_whatsit' from `hpack_filter'.
+Inserting `ltj.main' at position 3 in `hpack_filter'.
+Inserting `luaotfload.harf.finalize_hlist' at position 4 in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' at position 5 in `hpack_filter'.
+Removing  `ltj.set_stack_level' from `pre_linebreak_filter'.
+Removing  `luaotfload.node_processor' from `pre_linebreak_filter'.
+Removing  `ltj.main' from `pre_linebreak_filter'.
+Inserting `ltj.adjust_icflag' at position 1 in `pre_linebreak_filter'.
+Inserting `ltj.set_stack_level' at position 2 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 3 in `pre_linebreak_filter'.
+Inserting `ltj.main' at position 4 in `pre_linebreak_filter'.
+Removing  `ltj.set_stack_level' from `hpack_filter'.
+Removing  `luaotfload.node_processor' from `hpack_filter'.
+Removing  `ltj.main' from `hpack_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
+Removing  `ltj.create_dir_whatsit' from `hpack_filter'.
+Inserting `ltj.adjust_icflag' at position 1 in `hpack_filter'.
+Inserting `ltj.set_stack_level' at position 2 in `hpack_filter'.
+Inserting `luaotfload.node_processor' at position 3 in `hpack_filter'.
+Inserting `ltj.main' at position 4 in `hpack_filter'.
+Inserting `luaotfload.harf.finalize_hlist' at position 5 in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' at position 6 in `hpack_filter'.
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/luatex/luatexja/ltj-base.sty
+Package: ltj-base 2021-03-16
+\ltj@tempcntb=\count266
+\ltj@tempcntc=\count267
+\ltj@tempdima=\dimen142
+\ltj@afbox=\box52
+)
+\ltj@@italic@inner=\luafunction25
+\ltj@@start@time@measure@inner=\luafunction26
+\ltj@@stop@time@measure@inner=\luafunction27
+\ltj@@jfont@inner=\luafunction28
+\ltj@zw@inner=\luafunction29
+\ltj@zh@inner=\luafunction30
+\ltj@reset@globaldefs@inner=\luafunction31
+\ltj@restore@globaldefs@inner=\luafunction32
+\ltj@@disihb@inner=\luafunction33
+\ltj@@ihb@inner=\luafunction34
+\ltj@@fakeparbegin@inner=\luafunction35
+\ltj@@fakeboxbdd@inner=\luafunction36
+\ltj@@ins@xk@inner=\luafunction37
+\ltj@@ins@k@inner=\luafunction38
+\ltj@@stack=\count268
+\ltj@@group@level=\count269
+\ltjsetkanjiskip@inner=\luafunction39
+\ltjsetxkanjiskip@inner=\luafunction40
+\ltj@@getparam@one@inner=\luafunction41
+\ltj@alljachar@inner=\luafunction42
+\ltj@@lua@populate@insertwhatsit@inner=\luafunction43
+\ltj@@vadjust@begin@inner=\luafunction44
+\ltj@@vadjust@dirhook@inner=\luafunction45
+\ltj@@vadjust@check@dir@inner=\luafunction46
+\ltj@@box@dirhook@inner=\luafunction47
+\ltj@@reset@badness@inner=\luafunction48
+\ltj@@lua@raisebox@inner=\luafunction49
+\ltj@@lua@unboxcheckdir@inner=\luafunction50
+(load cache: ltj-kinsoku_default.luc)
+
+Package ctex Info: Package `ltj-latex' can not be loaded with `ctexart'.
+
+\ltj@temp@cctb=\catcodetable16
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/luatex/luatexja/luatexja-compat
+.sty
+Package: luatexja-compat 2020-08-08 Compatibility with pTeX
+(load cache: ltj-jisx0208.luc)
+\hour=\count270
+\minute=\count271
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec-luatex.
+sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count272
+\l__fontspec_language_int=\count273
+\l__fontspec_strnum_int=\count274
+\l__fontspec_tmp_int=\count275
+\l__fontspec_tmpa_int=\count276
+\l__fontspec_tmpb_int=\count277
+\l__fontspec_tmpc_int=\count278
+\l__fontspec_em_int=\count279
+\l__fontspec_emdef_int=\count280
+\l__fontspec_strong_int=\count281
+\l__fontspec_strongdef_int=\count282
+\l__fontspec_tmpa_dim=\dimen143
+\l__fontspec_tmpb_dim=\dimen144
+\l__fontspec_tmpc_dim=\dimen145
+ (C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.cfg)(loa
+d cache: extra_lmroman10-bold.luc)))
+\g__cctab_next_cctab=\catcodetable17
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/base/tuenc.def
+File: tuenc.def 2021/04/29 v2.0v Standard LaTeX file
+\@remove@tlig@@@@=\luafunction51
+LaTeX Font Info:    Redeclaring font encoding TU on input line 106.
+)
+Lua function ctex_ltj_add_kyenc:n = 52
+Lua function ctex_ltj_is_kenc:n = 53
+Lua function ctex_ltj_patch_external_font:n = 54
+Lua function ctex_ltj_use_jfont: = 55
+Lua function ctex_ltj_set_alt_font:nnnn = 56
+Lua function ctex_ltj_clear_alt_font:n = 57
+Lua function ctex_ltj_pickup_alt_font:nn = 58
+Lua function __ctex_ltj_pickup_alt_font:Nn = 59
+Lua function __ctex_ltj_if_alt_set:nT = 60
+Lua function ctex_ltj_zero_globaldefs: = 61
+\symCJKmath=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
+(Font)                  LTJY3/song/m/n --> LTJY3/song/b/n on input line 460.
+\g__ctex_ltj_family_int=\count283
+\ccwd=\dimen146
+\l__ctex_ccglue_skip=\skip49
+(load cache: ltj-cid-auto-adobe-gb1.luc)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/luatex/luatexja/jfm-quanjiao.lua
+)
+\l__ctex_xkanjiskip_skip=\skip50
+\cht=\dimen147
+\cdp=\dimen148
+\cwd=\dimen149
+Lua function ctex_update_kanjisize: = 62)
+\l__ctex_ziju_dim=\dimen150
+ (C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2020/05/01 v2.8 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count284
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/zhnumber/zhnumber-utf8.cf
+g
+File: zhnumber-utf8.cfg 2020/05/01 v2.8 Chinese numerals with UTF8 encoding
+))
+\l__ctex_heading_skip=\skip51
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/ctex/scheme/ctex-scheme-c
+hinese-article.def
+File: ctex-scheme-chinese-article.def 2021/12/12 v2.5.8 Chinese scheme for arti
+cle (CTEX)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/ctex/config/ctex-name-utf
+8.cfg
+File: ctex-name-utf8.cfg 2021/12/12 v2.5.8 Caption with encoding UTF-8 (CTEX)
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/ctex/ctex-c5size.clo
+File: ctex-c5size.clo 2021/12/12 v2.5.8 c5size option (CTEX)
+)(load cache: extra_lmroman8-regular.luc)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/ctex/fontset/ctex-fontset
+-windows.def
+File: ctex-fontset-windows.def 2021/12/12 v2.5.8 Windows fonts definition (CTEX
+)
+luaotfload | cache : Lookup cache loaded from C:/Users/xuu/AppData/Local/MiKTeX/
+luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load cache: extra_simsun
+.luc)(load cache: extra_kaiti.luc)
+
+Package fontspec Info: Could not resolve font "KaiTi/B" (it probably doesn't
+(fontspec)             exist).
+
+(load cache: extra_simhei.luc)
+
+Package fontspec Info: Could not resolve font "SimHei/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "SimSun/BI" (it probably doesn't
+(fontspec)             exist).
+
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
+(fontspec)             options
+(fontspec)             [NFSSEncoding=LTJY3,JFM=quanjiao,BoldFont={SimHei},Itali
+cFont={KaiTi},LTJFONTUID=1].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"SimSun:mode=node;script=latn;language=dflt;jfm=quanj
+iao;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"SimHei:mode=node;script=latn;language=dflt;jfm=quanj
+iao;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"KaiTi:mode=node;script=latn;language=dflt;jfm=quanji
+ao;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/ctex/config/ctex.cfg
+File: ctex.cfg 2021/12/12 v2.5.8 Configuration file (CTEX)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/carlisle/slashed.sty
+Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen151
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen152
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count285
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count286
+\leftroot@=\count287
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count288
+\DOTSCASE@=\count289
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen153
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count290
+\c@MaxMatrixCols=\count291
+\dotsspace@=\muskip16
+\c@parentequation=\count292
+\dspbrk@lvl=\count293
+\tag@help=\toks26
+\row@=\count294
+\column@=\count295
+\maxfields@=\count296
+\andhelp@=\toks27
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
+\@envbody=\toks28
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/bbm/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+
+Package ctex Warning: Package `ctex' can not be loaded with `ctexart'.
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count297
+\float@exts=\toks30
+\float@box=\box55
+\@float@everytoks=\toks31
+\@floatcapt=\box56
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty
+Package: babel 2022/05/22 3.75 The Babel package
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/babel/luababel.def
+\bbl@readstream=\read2
+\l@afrikaans=\language3
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@ancientgreek=\language4
+\l@armenian=\language5
+\l@assamese=\language6
+\l@basque=\language7
+\l@belarusian=\language8
+\l@bengali=\language9
+\l@bokmal=\language10
+\l@bulgarian=\language11
+\l@catalan=\language12
+\l@churchslavonic=\language13
+\l@classiclatin=\language14
+\l@coptic=\language15
+\l@croatian=\language16
+\l@czech=\language17
+\l@danish=\language18
+\l@dutch=\language19
+\l@esperanto=\language20
+\l@estonian=\language21
+\l@ethiopic=\language22
+\l@finnish=\language23
+\l@french=\language24
+\l@friulan=\language25
+\l@galician=\language26
+\l@georgian=\language27
+\l@german=\language28
+\l@greek=\language29
+\l@gujarati=\language30
+\l@hindi=\language31
+\l@hungarian=\language32
+\l@icelandic=\language33
+\l@indonesian=\language34
+\l@interlingua=\language35
+\l@irish=\language36
+\l@italian=\language37
+\l@kannada=\language38
+\l@kurmanji=\language39
+\l@latin=\language40
+\l@latvian=\language41
+\l@lithuanian=\language42
+\l@liturgicallatin=\language43
+\l@macedonian=\language44
+\l@malayalam=\language45
+\l@marathi=\language46
+\l@mongolian=\language47
+\l@mongolianlmc=\language48
+\l@monogreek=\language49
+\l@ngerman=\language50
+\l@nynorsk=\language51
+\l@occitan=\language52
+\l@oriya=\language53
+\l@pali=\language54
+\l@panjabi=\language55
+\l@piedmontese=\language56
+\l@polish=\language57
+\l@portuguese=\language58
+\l@romanian=\language59
+\l@romansh=\language60
+\l@russian=\language61
+\l@sanskrit=\language62
+\l@serbian=\language63
+\l@serbianc=\language64
+\l@slovak=\language65
+\l@slovenian=\language66
+\l@spanish=\language67
+\l@swedish=\language68
+\l@swissgerman=\language69
+\l@tamil=\language70
+\l@telugu=\language71
+\l@thai=\language72
+\l@turkish=\language73
+\l@turkmen=\language74
+\l@ukenglish=\language75
+\l@ukrainian=\language76
+\l@uppersorbian=\language77
+\l@usenglishmax=\language78
+\l@welsh=\language79
+\babelcatcodetablenum=\catcodetable18
+\bbl@pattcodes=\catcodetable19
+)
+\babel@savecnt=\count298
+\U@D=\dimen160
+\l@unhyphenated=\language80
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute25
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language75). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language75). Reported on input line 108.
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/en/babel-e
+nglish.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count299
+\Gm@cntv=\count300
+\c@Gm@tempcnt=\count301
+\Gm@bindingoffset=\dimen161
+\Gm@wd@mp=\dimen162
+\Gm@odd@mp=\dimen163
+\Gm@even@mp=\dimen164
+\Gm@layoutwidth=\dimen165
+\Gm@layoutheight=\dimen166
+\Gm@layouthoffset=\dimen167
+\Gm@layoutvoffset=\dimen168
+\Gm@dimlist=\toks32
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen169
+\captionmargin=\dimen170
+\caption@leftmargin=\dimen171
+\caption@rightmargin=\dimen172
+\caption@width=\dimen173
+\caption@indent=\dimen174
+\caption@parindent=\dimen175
+\caption@hangindent=\dimen176
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count302
+\c@continuedfloat=\count303
+Package caption Info: float package is loaded.
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+ (C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.def
+File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen177
+\Gin@req@width=\dimen178
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip55
+\subfigcapskip=\skip56
+\subfigcaptopadj=\dimen179
+\subfigbottomskip=\skip57
+\subfigcapmargin=\dimen180
+\subfiglabelskip=\skip58
+\c@subfigure=\count304
+\c@lofdepth=\count305
+\c@subtable=\count306
+\c@lotdepth=\count307
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip59
+\subfig@bottom=\skip60
+) (C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-05-17 v7.00q Hypertext links for LaTeX
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdefineke
+ys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/letltxmacro/letltxmacro.s
+ty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/gettitlestring/gettitle
+string.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+))
+\c@section@level=\count308
+)
+\@linkdim=\dimen181
+\Hy@linkcounter=\count309
+\Hy@pagecounter=\count310
+ (C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-05-17 v7.00q Hyperref: PDFDocEncoding definition (HO)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count311
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-05-17 v7.00q Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4020.
+Package hyperref Info: Hyper figures OFF on input line 4139.
+Package hyperref Info: Link nesting OFF on input line 4144.
+Package hyperref Info: Hyper index ON on input line 4147.
+Package hyperref Info: Plain pages OFF on input line 4154.
+Package hyperref Info: Backreferencing OFF on input line 4159.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4385.
+\c@Hy@tempcnt=\count312
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4723.
+\XeTeXLinkMargin=\dimen182
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc.s
+ty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count313
+\Field@Width=\dimen183
+\Fld@charsize=\dimen184
+Package hyperref Info: Hyper figures OFF on input line 6001.
+Package hyperref Info: Link nesting OFF on input line 6006.
+Package hyperref Info: Hyper index ON on input line 6009.
+Package hyperref Info: backreferencing OFF on input line 6016.
+Package hyperref Info: Link coloring OFF on input line 6021.
+Package hyperref Info: Link coloring with OCG OFF on input line 6026.
+Package hyperref Info: PDF/A mode OFF on input line 6031.
+LaTeX Info: Redefining \ref on input line 6078.
+LaTeX Info: Redefining \pageref on input line 6078.
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count314
+\c@Item=\count315
+\c@Hfootnote=\count316
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2022-05-17 v7.00q Hyperref driver for luaTeX
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+) (C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count317
+\c@bookmark@seq@number=\count318
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilec
+heck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/uniquecou
+nter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip61
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: luatex.def on input line 149.
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/pgf/frontendlayer/tikz.st
+y (C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil-c
+ommon.tex
+\pgfutil@everybye=\toks33
+\pgfutil@tempdima=\dimen185
+\pgfutil@tempdimb=\dimen186
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil-c
+ommon-lists.tex))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil-l
+atex.def
+\pgfutil@abb=\box57
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfrcs.co
+de.tex
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.st
+y
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.st
+y
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsys.
+code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys.c
+ode.tex
+\pgfkeys@pathtoks=\toks34
+\pgfkeys@temptoks=\toks35
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeysfi
+ltered.code.tex
+\pgfkeys@tmptoks=\toks36
+))
+\pgf@x=\dimen187
+\pgf@y=\dimen188
+\pgf@xa=\dimen189
+\pgf@ya=\dimen190
+\pgf@xb=\dimen191
+\pgf@yb=\dimen192
+\pgf@xc=\dimen193
+\pgf@yc=\dimen194
+\pgf@xd=\dimen195
+\pgf@yd=\dimen196
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count319
+\c@pgf@countb=\count320
+\c@pgf@countc=\count321
+\c@pgf@countd=\count322
+\t@pgf@toka=\toks37
+\t@pgf@tokb=\toks38
+\t@pgf@tokc=\toks39
+\pgf@sys@id@count=\count323
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsys-
+luatex.def
+File: pgfsys-luatex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsys-
+common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsyss
+oftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count324
+\pgfsyssoftpath@bigbuffer@items=\count325
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsysp
+rotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcore.
+code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code.t
+ex
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathcalc.co
+de.tex
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathutil.co
+de.tex)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathparser.
+code.tex
+\pgfmath@dimen=\dimen197
+\pgfmath@count=\count326
+\pgfmath@box=\box58
+\pgfmath@toks=\toks40
+\pgfmath@stack@operand=\toks41
+\pgfmath@stack@operation=\toks42
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunctio
+ns.code.tex
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunctio
+ns.basic.code.tex)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunctio
+ns.trigonometric.code.tex)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunctio
+ns.random.code.tex)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunctio
+ns.comparison.code.tex)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunctio
+ns.base.code.tex)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunctio
+ns.round.code.tex)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunctio
+ns.misc.code.tex)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunctio
+ns.integerarithmetics.code.tex)))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfloat.c
+ode.tex
+\c@pgfmathroundto@lastzeros=\count327
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.code.te
+x)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcorep
+oints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen198
+\pgf@picmaxx=\dimen199
+\pgf@picminy=\dimen256
+\pgf@picmaxy=\dimen257
+\pgf@pathminx=\dimen258
+\pgf@pathmaxx=\dimen259
+\pgf@pathminy=\dimen260
+\pgf@pathmaxy=\dimen261
+\pgf@xx=\dimen262
+\pgf@xy=\dimen263
+\pgf@yx=\dimen264
+\pgf@yy=\dimen265
+\pgf@zx=\dimen266
+\pgf@zy=\dimen267
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcorep
+athconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen268
+\pgf@path@lasty=\dimen269
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcorep
+athusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen270
+\pgf@shorten@start@additional=\dimen271
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcores
+copes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count328
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreg
+raphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen272
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcoret
+ransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen273
+\pgf@pt@y=\dimen274
+\pgf@pt@temp=\dimen275
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreq
+uick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreo
+bjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcorep
+athprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcorea
+rrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen276
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcores
+hade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen277
+\pgf@sys@shading@range@num=\count329
+\pgf@shadingcount=\count330
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcorei
+mage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcoree
+xternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box62
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcorel
+ayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcoret
+ransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcorep
+atterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcorer
+df.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodulesh
+apes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box63
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodulepl
+ot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfcomp
+-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen278
+\pgf@nodesepend=\dimen279
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfcomp
+-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgffor.sty
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys.sty
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys.c
+ode.tex))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/pgf/math/pgfmath.sty
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code.t
+ex))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgffor.co
+de.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code.t
+ex)
+\pgffor@iter=\dimen280
+\pgffor@skip=\dimen281
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz/
+tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibrar
+yplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count331
+\pgfplotmarksize=\dimen282
+)
+\tikz@lastx=\dimen283
+\tikz@lasty=\dimen284
+\tikz@lastxsaved=\dimen285
+\tikz@lastysaved=\dimen286
+\tikz@lastmovetox=\dimen287
+\tikz@lastmovetoy=\dimen288
+\tikzleveldistance=\dimen289
+\tikzsiblingdistance=\dimen290
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count332
+\tikznumberofchildren=\count333
+\tikznumberofcurrentchild=\count334
+\tikz@fig@count=\count335
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodulema
+trix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count336
+\pgfmatrixcurrentcolumn=\count337
+\pgf@matrix@numberofcolumns=\count338
+)
+\tikz@expandcount=\count339
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/tikz-feynman/tikz-feynman
+.sty
+Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
+ (C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks45
+\pgfopts@list@add@b@toks=\toks46
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/tikz-feynman/tikzlibraryf
+eynman.code.tex
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibrar
+yarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen291
+\pgfarrowlength=\dimen292
+\pgfarrowwidth=\dimen293
+\pgfarrowlinewidth=\dimen294
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarydecorations.code.tex
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodulede
+corations.code.tex
+\pgfdecoratedcompleteddistance=\dimen295
+\pgfdecoratedremainingdistance=\dimen296
+\pgfdecoratedinputsegmentcompleteddistance=\dimen297
+\pgfdecoratedinputsegmentremainingdistance=\dimen298
+\pgf@decorate@distancetomove=\dimen299
+\pgf@decorate@repeatstate=\count340
+\pgfdecorationsegmentamplitude=\dimen300
+\pgfdecorationsegmentlength=\dimen301
+)
+\tikz@lib@dec@box=\box68
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarydecorations.markings.code.tex
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decoratio
+ns/pgflibrarydecorations.markings.code.tex))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decoratio
+ns/pgflibrarydecorations.pathmorphing.code.tex))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarydecorations.pathreplacing.code.tex
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decoratio
+ns/pgflibrarydecorations.pathreplacing.code.tex))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz/
+libraries/graphs/tikzlibrarygraphs.code.tex
+File: tikzlibrarygraphs.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\tikz@lib@auto@number=\count341
+\tikz@qnode@count=\count342
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibrar
+ypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/shapes/pg
+flibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/graphdrawing/tex/ti
+kzlibrarygraphdrawing.code.tex
+File: tikzlibrarygraphdrawing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/graphdrawing/tex/pg
+flibrarygraphdrawing.code.tex
+File: pgflibrarygraphdrawing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@gd@parameter@stack@height=\count343
+\pgf@gd@node@box=\box69
+\pgf@gd@edge@box=\box70
+\pgf@gd@prekind@box=\box71
+\pgf@gd@postkind@box=\box72
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/tikz-feynman/tikzfeynman.
+keys.code.tex)))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/braket/braket.sty)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip62
+\multirow@cntb=\count344
+\multirow@dima=\skip63
+\bigstrutjot=\dimen302
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen303
+\lightrulewidth=\dimen304
+\cmidrulewidth=\dimen305
+\belowrulesep=\dimen306
+\belowbottomsep=\dimen307
+\aboverulesep=\dimen308
+\abovetopsep=\dimen309
+\cmidrulesep=\dimen310
+\cmidrulekern=\dimen311
+\defaultaddspace=\dimen312
+\@cmidla=\count345
+\@cmidlb=\count346
+\@aboverulesep=\dimen313
+\@belowrulesep=\dimen314
+\@thisruleclass=\count347
+\@lastruleclass=\count348
+\@thisrulewidth=\dimen315
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/threeparttable/threepartt
+able.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box73
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/diagbox/diagbox.sty
+Package: diagbox 2020/02/09 v2.3 Making table heads with diagonal lines
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: luatex.def on input line 112.
+Package pict2e Info: Driver file for pict2e: p2e-luatex.def on input line 114.
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/pict2e/p2e-luatex.def
+File: p2e-luatex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks47
+\@arclen=\dimen316
+\@arcrad=\dimen317
+\pIIe@tempdima=\dimen318
+\pIIe@tempdimb=\dimen319
+\pIIe@tempdimc=\dimen320
+\pIIe@tempdimd=\dimen321
+\pIIe@tempdime=\dimen322
+\pIIe@tempdimf=\dimen323
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count349
+\calc@Bcount=\count350
+\calc@Adimen=\dimen324
+\calc@Bdimen=\dimen325
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count351
+\calc@Cskip=\skip66
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen326
+\ar@mcellbox=\box74
+\extrarowheight=\dimen327
+\NC@list=\toks48
+\extratabsurround=\skip67
+\backup@length=\skip68
+\ar@cellbox=\box75
+)
+\diagbox@boxa=\box76
+\diagbox@boxb=\box77
+\diagbox@boxm=\box78
+\diagbox@wd=\dimen328
+\diagbox@ht=\dimen329
+\diagbox@insepl=\dimen330
+\diagbox@insepr=\dimen331
+\diagbox@outsepl=\dimen332
+\diagbox@outsepr=\dimen333
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/extpfeil/extpfeil.sty
+Package: extpfeil 2009/10/31 v0.4 Extensible Pfeile (PE)
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count352
+\l_MT_multwidth_dim=\dimen334
+\origjot=\skip69
+\l_MT_shortvdotswithinadjustabove_dim=\dimen335
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen336
+\l_MT_above_intertext_sep=\dimen337
+\l_MT_below_intertext_sep=\dimen338
+\l_MT_above_shortintertext_sep=\dimen339
+\l_MT_below_shortintertext_sep=\dimen340
+\xmathstrut@box=\box79
+\xmathstrut@dim=\dimen341
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/extarrows/extarrows.sty
+Package: extarrows 2020/03/12 v1.2.0 Some extensible arrows
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibraryintersections.code.tex
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibrar
+yintersections.code.tex
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibrar
+yfpu.code.tex)
+\pgf@intersect@solutions=\count353
+))
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+LaTeX Font Info:    Redeclaring symbol font `CJKmath' on input line 113.
+LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `normal'
+(Font)                  LTJY3/song/m/n --> LTJY3/SimSun(0)/m/n on input line 11
+3.
+LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
+(Font)                  LTJY3/song/b/n --> LTJY3/SimSun(0)/m/n on input line 11
+3.
+LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
+(Font)                  LTJY3/SimSun(0)/m/n --> LTJY3/SimSun(0)/b/n on input li
+ne 113.
+
+
+LaTeX Warning: Unused global option(s):
+    [aps,tightenlines,16pt].
+
+(./axions.aux (./jianjie.aux) (./strongcp.aux))
+\openout1 = axions.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for LTJY3/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 113.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 113.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 113.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 113.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 113.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 113.
+LaTeX Font Info:    Redeclaring math accent \check on input line 113.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 113.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 113.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 113.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 113.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 113.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 113.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 113.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 113.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 113.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 113.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 113.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 113.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 113.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 113.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 113.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 113.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(72.2698pt, 650.43037pt, 72.2698pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=650.43037pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-37.00018pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: subfigure package is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count354
+\scratchdimen=\dimen342
+\scratchbox=\box80
+\nofMPsegments=\count355
+\nofMParguments=\count356
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count357
+\MPscratchDim=\dimen343
+\MPnumerator=\count358
+\makeMPintoPDFobject=\count359
+\everyMPtoPDFconversion=\toks50
+)
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-bas
+e.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 113.
+ (./axions.out) (./axions.out)
+\@outlinefile=\write4
+
+\openout4 = axions.out
+
+
+Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[co
+mpat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on
+ input line 113.
+
+(load cache: extra_lmroman12-regular.luc)(load cache: extra_lmroman17-regular.lu
+c)(load cache: extra_lmroman6-regular.luc)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 120
+.
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 120
+.
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 1
+20.
+
+(C:/Users/xuu/AppData/Local/Programs/MiKTeX/tex/latex/stmaryrd/ustmry.fd)
+
+Package hyperref Warning: Option `hypertex' has already been used,
+(hyperref)                setting the option has no effect on input line 125.
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 125.
+
+(load cache: extra_lmroman12-bold.luc)
+LaTeX Font Info:    Font shape `LTJY3/SimSun(0)/bx/n' in size <15.05624> not av
+ailable
+(Font)              Font shape `LTJY3/SimSun(0)/b/n' tried instead on input lin
+e 128.
+(./axions.toc
+LaTeX Font Info:    Font shape `LTJY3/SimSun(0)/bx/n' in size <12.045> not avai
+lable
+(Font)              Font shape `LTJY3/SimSun(0)/b/n' tried instead on input lin
+e 2.
+)
+\tf@toc=\write5
+
+\openout5 = axions.toc
+ [1
+
+{C:/Users/xuu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+\openout2 = jianjie.aux
+ (./jianjie.tex
+ (./jpg/caomao.tex(load cache: extra_lmroman7-regular.luc)(load cache: extra_lmr
+oman5-regular.luc)
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 6.
+
+)(load cache: extra_lmromanslant10-regular.luc)
+LaTeX Font Info:    Font shape `LTJY3/SimSun(0)/m/sl' in size <10.53937> not av
+ailable
+(Font)              Font shape `LTJY3/SimSun(0)/m/it' tried instead on input li
+ne 27.
+luaotfload | aux : font no 90 (nil) does not define feature vert for script dflt
+ with language dflt
+luaotfload | aux : font no 90 (nil) does not define feature vrt2 for script dflt
+ with language dflt [2
+
+] [3] [4] (./jpg/fanchang.tex)
+Overfull \hbox (19.9273pt too wide) in paragraph at lines 162--163
+[]|\LTJY3/SimSun(0)/m/n/12.045 考 |虑 $\OML/cmm/m/it/12.045 U\OT1/cmr/m/n/12.
+045 (1)[]$ |\LTJY3/SimSun(0)/m/n/12.045 群 [] |我 |们 |有 |轴 |矢 |流 $\
+OML/cmm/m/it/12.045 j[] \OT1/cmr/m/n/12.045 = []\OML/cmm/m/it/12.045 [][]T[]q$[] |\LTJY3/SimSun(0)/m/n/12.045 
+以 $\OML/cmm/m/it/12.045 a \OT1/cmr/m/n/12.045 = 3$ |\LTJY3/SimSun(0)/m/n/12.0
+45 为 |例 [] |其 |中 $\OML/cmm/m/it/12.045 Q \OT1/cmr/m/n/12.045 = []\OMS/c
+msy/m/n/12.045 f\OT1/cmr/m/n/12.045 2/3\OML/cmm/m/it/12.045 ; \OMS/cmsy/m/n/12.
+045 ^^@\OT1/cmr/m/n/12.045 1/3\OML/cmm/m/it/12.045 ; \OMS/cmsy/m/n/12.045 ^^@\O
+T1/cmr/m/n/12.045 1/3\OMS/cmsy/m/n/12.045 g$[] 
+ []
+
+[5] (./jpg/pi0fanchang.tex)) [6]
+\openout2 = strongcp.aux
+ (./strongcp.tex [7
+
+
+
+]
+<xiezhenzi.jpg, id=103, 1425.325pt x 538.01pt>
+File: xiezhenzi.jpg Graphic file (type jpg)
+<use xiezhenzi.jpg>
+Package luatex.def Info: xiezhenzi.jpg  used on input line 48.
+(luatex.def)             Requested size: 498.87123pt x 188.30632pt.
+
+Overfull \hbox (22.47723pt too wide) in paragraph at lines 48--49
+[][] 
+ []
+
+[8<./xiezhenzi.jpg>]
+LaTeX Font Info:    Font shape `LTJY3/SimSun(0)/bx/n' in size <10.53937> not av
+ailable
+(Font)              Font shape `LTJY3/SimSun(0)/b/n' tried instead on input lin
+e 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 85.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 85.
+
+) [9]
+No file axions.bbl.
+(./axions.aux (./jianjie.aux) (./strongcp.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.41063pt have occurred.
+
+Package rerunfilecheck Info: File `axions.out' has not changed.
+(rerunfilecheck)             Checksum: F48B8C999262E58B65C04BF492A21B97;415.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 37263 strings out of 477742
+ 305204,1373583 words of node,token memory allocated
+ 14637 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 2 glue, 47 kern, 1 glyph, 4539 attribute, 797 glue_
+spec, 248 attribute_list, 4 write, 159 user_defined nodes
+   avail lists: 1:14,2:96004,3:1631,4:1162,5:118,6:32,7:6185,8:96,9:1832,10:11,1
+1:22,12:1
+ 56353 multiletter control sequences out of 65536+600000
+ 92 fonts using 101943207 bytes
+ 88i,16n,115p,988b,1668s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<//?/c:/users/xuu/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman
+10-bold.otf><//?/c:/users/xuu/appdata/local/programs/miktex/fonts/opentype/publi
+c/lm/lmroman8-regular.otf><C:/Windows/Fonts/simkai.ttf><//?/c:/users/xuu/appdata
+/local/programs/miktex/fonts/opentype/public/lm/lmromanslant10-regular.otf><//?/
+c:/users/xuu/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-re
+gular.otf><//?/c:/users/xuu/appdata/local/programs/miktex/fonts/opentype/public/
+lm/lmroman12-bold.otf><C:/Windows/Fonts/simhei.ttf><//?/c:/users/xuu/appdata/loc
+al/programs/miktex/fonts/opentype/public/lm/lmroman12-regular.otf><C:/Windows/Fo
+nts/simsun.ttc><//?/c:/users/xuu/appdata/local/programs/miktex/fonts/opentype/pu
+blic/lm/lmroman17-regular.otf><C:/Users/xuu/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmex10.pfb><C:/Users/xuu/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/xuu/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/xuu/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/xuu/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/xuu/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/xu
+u/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Use
+rs/xuu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Users/xuu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Users/xuu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r6.pfb><C:/Users/xuu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr8.pfb><C:/Users/xuu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><C:/Users/xuu/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy6.pfb><C:/Users/xuu/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><C:/Users/xuu/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/symbols/msbm10.pfb>
+Output written on axions.pdf (9 pages, 369036 bytes).
+
+PDF statistics: 226 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 131072)
+ 48 words of extra memory for PDF output out of 10000 (max. 100000000)
+

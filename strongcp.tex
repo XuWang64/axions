@@ -1,0 +1,85 @@
+%! TEX root = ./axions.tex
+\subsection{强CP问题}
+
+首先考虑$U(1)$电磁规范理论，在不违反对称性的前提下，拉氏量可以写成
+\begin{align*}
+   \mathcal{L}\supset -F_{\mu\nu}F^{\mu\nu}+eA_{\mu}J^{\mu}+\theta F_{\mu\nu} F_{\lambda\sigma}\epsilon^{\mu\nu\lambda\sigma}
+\end{align*}
+而事实上，只有前两项出现在SM中，如果我们把$\theta$项展开可以得到$\vec{E}\cdot\vec{B}$，代入作用量中可以得到
+\begin{align*}
+   S=\int d^4 x\mathcal{L} \supset \int d^4x \theta \vec{E}\cdot\vec{B}
+\end{align*}
+将电场写作$\vec{E}=\nabla\Phi$，利用分部积分可以得到
+\begin{align*}
+   \int d^4x \vec{E}\cdot\vec{B}=\int d^4x\nabla\cdot(\Phi \vec{B})-\int d^4x \Phi \nabla\cdot\vec{B}
+\end{align*}
+其中第一项是表面项，如果没有磁单极子的存在，第二项等于0。表面项在经典物理中可以忽略。
+
+先考虑表面项在量子力学中的作用，势能为谐振子势
+\begin{align*}
+   \mathcal{L}=\frac{\dot{x}^2}{2}-V(x)
+\end{align*}
+引入表面项后
+\begin{align*}
+   \mathcal{L}=\frac{\dot{x}^2}{2}-V(x)+\theta\dot{x}
+\end{align*}
+显然表面项不改变经典物理。如果我们计算考虑表面项后的哈密顿量，可以得到
+\begin{align*}
+   H=p\dot{x}-L=\frac{\dot{x}^2}{2}+V(x)
+\end{align*}
+哈密顿量不依赖于$\theta$，因此求解得到的波函数是一样的。
+
+如果将势函数修改为周期谐振子势，即在$[-a,a]$是谐振子，然后不断平移，得到整体势函数。 周期谐振子势的求解要复杂得多，为此我们可以先计算$\langle x_f|e^{-HT}|x_i\rangle$在大$T$极限下，$|x\rangle$为位置本征态，
+\begin{align*}
+   \langle x_f|e^{-HT}|x_i\rangle=\sum_{n,m}\langle x_f|n\rangle\langle n|e^{-HT}|m\rangle \langle m |x_i\rangle=\sum_{n}\langle x_f|n\rangle\langle n|e^{-E_{n}T}|n\rangle \langle n |x_i\rangle
+\end{align*}
+在大$T$极限下，仅有基态占主导地位，因此$\langle x_f|e^{-HT}|x_i\rangle\simeq \langle x_f|0\rangle e^{-E_0T}\langle 0 |x_i\rangle$。
+
+利用费曼路径积分的技巧，我们可以得到
+\begin{align*}
+   \langle x_f|e^{-HT}|x_i\rangle=N\int d \gamma e^{-S_{E}[\gamma]}
+\end{align*}
+其中$S_{E}$是欧式作用量($t\to \mbox{i}\tau$)
+\begin{align*}
+   S_{E}=\int d \tau (-(\frac{\dot{x}^2}{2}+V(x))+\mbox{i}\theta\dot{x})
+\end{align*}
+其中$\theta$项作为相位出现。我们知道在跃迁中起最大贡献的路径是使作用量取极小值的路径，而这正是经典路径。但在欧式作用量中，势变成了$-V$。因此问题变成了在$-V$中从$x_i$到$x_f$的跃迁。如果取$x_f=x_i$，则显然在一维谐振子中只有一条路径，即待着不动；而在周期谐振子势中，则可以有无穷多条路径，可以任意跨选择过峰，对于这些额外的路径我们称为瞬子。
+
+\includegraphics[scale=0.35]{xiezhenzi.jpg}
+ 
+这些不同的瞬子显然是不同的，有些可以是一个周期，有些可以是两个周期，我们称之为瞬子解的缠绕数。现在我们可以看出$\theta$项的意义了
+\begin{align*}
+   \int d\tau (\mbox{i}\theta x)\approx \mbox{i}\theta n
+\end{align*}
+其中$n$是缠绕数。因此$\theta$项是物理的，它告诉我们如何把这些瞬子加在一起。至于最终的答案以及细节计算可以参考Coleman的书，关键点在于$\theta$确实可以改变谱的结构。
+\begin{align*}
+   E=\frac{1}{2}\omega + 2Kcos\theta e^{-S_)}
+\end{align*}.
+
+考虑一个简单的无费米子的理论
+\begin{align*}
+   \mathcal{L}\supset -F_{\mu\nu}F^{\mu\nu}+\theta F_{\mu\nu}\tilde{F}^{\mu\nu}
+\end{align*}
+它的欧式路径积分为
+\begin{align*}
+   \int [d A]e^{-S_E[A]}
+\end{align*}
+同理，该积分主要由欧式空间运动方程的解给出。欧式运动方程由下面微分方程给出
+\begin{align*}
+   D_{\mu}F^{\mu\nu}=0
+\end{align*}
+为了求解方程，必须给定边界条件。如果有些解的能量是发散的，那么这些解对路径积分没有贡献。因此我们只需要找到那些有限能量的解，从而$F_{\mu\nu}$在无穷远处必须为0。但是$F_{\mu\nu}$为0，并不意味着$A$也为0。 This means, we seek boundary conditions where the potential is pure gauge out at infinity. 它在有限区域内具有非零场强，因此对欧式路径积分有贡献。如果时空是$R^4$的，那么它的边界就是$S^3$，那么我们其实就是在找一个从$S^3$到规范群$G$的映射。给定这样一个映射，如果可以连续变形到另外一个映射，那么就不用再单独计数，因为它也是路径积分的一部分。如果规范群是$U(1)$，那么所有从$S^3$映射到$U(1)$的群都可以连续变换到单位映射。因此仅有一个有限能量解，此时$\theta$项不重要。
+
+可以发现，我们的映射是依赖时空维数的，如果是1+1维时空，那么边界就是$S^1$，从$S^1$到$U(1)$存在不平凡的映射。
+
+同样，如果我们的规范群是$SU(N)$，也存在不平凡的映射。在$S^1$上，我们用缠绕数标记不同的映射。对于这些高维映射，我们用Pontryagin指标来标记。而对于这些解，我们都称之为瞬子。和缠绕数类似，这些指标告诉我们如何把不同的瞬子解加到一起。参考Coleman的书，可以给出$\theta$项的能量修正。因此$\theta$
+是有物理意义的。
+\begin{align*}
+   E(\theta)\sim K cos\theta e^{-S_0}
+\end{align*}
+对于规范理论，可以证明瞬子的指数压低为$e^{-8\pi^2/g^2}$，其中$g$是规范耦合常数，对于$SU(2)$，耦合常数很小，因此几乎不讨论电弱的$\theta$项，但对于$SU(3)$，$\theta$项就不可以忽略了。
+
+
+强相互作用的$SU(3)_C$是CP守恒的，但是低能情况下，一直存在一个问题：Weinberg的$U(1)_A$介子丢失问题。't Hooft的解决方案引发了人们对强CP问题的重新认识。
+
+\subsubsection{$U(1)_A$介子丢失问题}

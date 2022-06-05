@@ -1,0 +1,33 @@
+%! TEX root = ../axions.tex
+\begin{equation*}
+    % \feynmandiagram [small,inline=(t1.base) horizontal=t2 to p1] {
+    % t1[crossed dot] -- t2 -- t3 -- t1,
+    % t2 -- [photon] p1 [particle=\(\gamma\)],
+    % t3 -- [photon] p2 [particle=\(\gamma\)],
+    % p1 -- [opacity=0] p2,
+    % };
+    \begin{tikzpicture}
+        \begin{feynman}
+            \diagram [small, vertical=t3 to t2] {
+            t1[crossed dot] -- t2 -- t3 -- t1,
+            t2 -- [photon] p2 [particle=\(\gamma\)],
+            t3 -- [photon] p1 [particle=\(\gamma\)],
+            p1 -- [opacity=0] p2,
+            };
+            \end{feynman}
+    \end{tikzpicture}
+    \begin{tikzpicture}
+        \begin{feynman}
+            \diagram [small, vertical=t3 to t2] {
+            t1[crossed dot] -- t2 -- t3 -- t1,
+            t2 -- [draw=none] p2 [particle=\(\gamma\)],
+            t3 -- [draw=none] p1 [particle=\(\gamma\)],
+            p1 -- [opacity=0] p2,
+            };
+            \diagram*{
+                (t2)--[photon](p1),
+                (t3)--[photon](p2),
+            };
+            \end{feynman}
+    \end{tikzpicture}  
+\end{equation*}

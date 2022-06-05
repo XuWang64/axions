@@ -1,0 +1,26 @@
+%! TEX root = ../axions.tex
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}
+        [x={(0.8cm,0cm)},z={(0cm,0.1cm)},y={(-0.4cm,-0.7cm)}]
+        \draw[->,thick,black!70] (0,0,0) -- (4,0,0) node[right] {Im$\phi$}; % 虚轴
+        \draw[->,thick,black!70] (0,0,0) -- (0,4,0) node[below right] {Re$\phi$}; % 实轴
+        \draw[->,thick,black!70,scale=0.1] (0,0,0) -- (0,0,600) node[above] {V}; % 势能 
+        
+        % ellipse
+            \def \rx{1.5}
+            \def \ry{1}
+            \def \z{0}
+            \draw[rotate around={-12:(0,0,0)},dashed]  ellipse({\rx} and {\ry});
+            \def \nx{2.88}
+            \def \ny{1.44}
+            \def \tz{41}
+            \def \tx{-0.6}
+            \draw[rotate around={-7:(0,0,0)},dashed] (\tx,0,\tz
+            ) ellipse({\nx} and {\ny});
+        % function
+        \draw[domain=-3:3,samples=200,smooth]
+        plot(\x,0,{(\x*\x-2.5)^2});
+
+        \end{tikzpicture}
+\end{figure}
